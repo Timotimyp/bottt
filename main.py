@@ -108,8 +108,8 @@ def end_authorization(message, login):
                json={'chat_id': message.chat.id,
                      'login': login,
                      'password': message.text}).json())
-    bot.send_message(message.chat.id, 'Спасибо за регестрацию! тепер в можете пользоваться нашим сайтом и ботом!', reply_markup=markup)
-
+    bot.send_message(message.chat.id, 'Спасибо за регестрацию! тепер в можете пользоваться нашим сайтом и ботом!\n'
+                                      'https://botesite.herokuapp.com/', reply_markup=markup)
 
 def answer_number(message):
     q = message.text
