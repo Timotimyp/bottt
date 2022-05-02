@@ -10,7 +10,7 @@ import json
 morph = pymorphy2.MorphAnalyzer()
 wikipedia.set_lang("ru")
 
-bot = telebot.TeleBot('5385406247:AAGCPE_X1JOqoh0k6PbhAcHXR-NOkuFyO7c')
+bot = telebot.TeleBot('5387429562:AAGQl6ZU5qftDhPPvnaYdx3rpiQvvuxaAc4')
 
 
 @bot.message_handler(commands=["start"])
