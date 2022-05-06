@@ -385,4 +385,5 @@ def helper(message):
         bot.send_message(message.chat.id, 'Мы не можем помочь с выбором фильма, так как вы ещё не оценили ни одного(')
 
 
-bot.polling(none_stop=True, interval=0)
+bot.infinity_polling()
+
